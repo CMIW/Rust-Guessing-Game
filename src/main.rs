@@ -1,8 +1,8 @@
-// This is a simple guessing game, taken from the book "The Rust Programming Language", to try and
-// practice some common Rust concepts. The program generates a random interger between 1 and 100.
-// It will then prompt the player to enter a guess. After a guess is entered, the programm will
-// indicate whether the guess is too low or tool high. If the guess is correct, the game will print
-// a congratulatory message and exit.
+// This is a simple guessing game, taken from the book "The Rust Programming Language", to learn
+// the language trying and practicing common Rust concepts. The program generates a random integer
+// between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered,
+// the program will indicate whether the guess is too low or tool high. If the guess is correct,
+// the game will print a congratulatory message and exit.
 
 use rand::Rng;
 use std::cmp::Ordering;
